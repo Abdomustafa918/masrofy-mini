@@ -1,0 +1,140 @@
+{
+  "navbar": {
+    "eyebrow": "Tableau financier sensible a la culture",
+    "brand": "Masrofy Mini",
+    "cultureLabel": "Choisir la culture"
+  },
+  "stats": {
+    "balance": "Solde disponible",
+    "balanceHelper": "Solde initial ajuste par les revenus et depenses.",
+    "income": "Revenus mensuels",
+    "incomeHelper": "Le format monetaire suit la culture active.",
+    "expenses": "Depenses mensuelles",
+    "expensesHelper": "Les totaux utilisent le format local.",
+    "savings": "Taux d'epargne",
+    "savingsHelper": "Les nombres respectent les separateurs locaux."
+  },
+  "preview": {
+    "eyebrow": "Apercu culturel",
+    "title": "Details du parametre choisi",
+    "language": "Langue",
+    "country": "Pays",
+    "currency": "Devise",
+    "date": "Date formatee",
+    "amount": "Montant formate en exemple"
+  },
+  "categories": {
+    "eyebrow": "Exemples adaptes",
+    "title": "Categories financieres proposees",
+    "samples": {
+      "en-US": ["Logement", "Courses", "Transport", "Investissements"],
+      "ar-EG": ["Maison", "Famille", "Transport", "Epargne"],
+      "fr-FR": ["Loyer", "Marche", "Restaurants", "Voyage"],
+      "de-DE": ["Loyer", "Mobilite", "Assurance", "Reserve"],
+      "nl-NL": ["Logement", "Velo", "Courses", "Loisirs"]
+    }
+  },
+  "charts": {
+    "cashflowEyebrow": "Mouvement mensuel",
+    "cashflowTitle": "Tendance revenus et depenses",
+    "spendingEyebrow": "Repartition des depenses",
+    "spendingTitle": "Distribution par categorie"
+  },
+  "transactions": {
+    "eyebrow": "Activite recente du registre",
+    "title": "Dernieres transactions",
+    "columns": {
+      "category": "Categorie",
+      "type": "Type",
+      "date": "Date",
+      "amount": "Montant"
+    }
+  },
+  "labels": {
+    "income": "Revenus",
+    "expenses": "Depenses",
+    "expense": "Depense",
+    "salary": "Salaire",
+    "housing": "Logement",
+    "food": "Alimentation",
+    "transport": "Transport",
+    "lifestyle": "Mode de vie",
+    "freelance": "Freelance"
+  },
+  "months": {
+    "jan": "Jan",
+    "feb": "Fev",
+    "mar": "Mar",
+    "apr": "Avr",
+    "may": "Mai"
+  },
+  "cultures": {
+    "en-US": { "language": "Anglais", "country": "Etats-Unis" },
+    "ar-EG": { "language": "Arabe", "country": "Egypte" },
+    "fr-FR": { "language": "Francais", "country": "France" },
+    "de-DE": { "language": "Allemand", "country": "Allemagne" },
+    "nl-NL": { "language": "Neerlandais", "country": "Pays-Bas" }
+  },
+  "app": {
+    "nav": {
+      "dashboard": "Tableau de bord",
+      "transactions": "Transactions",
+      "budgets": "Budgets",
+      "reports": "Rapports",
+      "settings": "Parametres"
+    },
+    "auth": {
+      "loginTitle": "Bon retour",
+      "loginSubtitle": "Connectez-vous pour gerer votre tableau financier.",
+      "registerTitle": "Creez votre compte",
+      "registerSubtitle": "Suivez revenus, depenses, budgets et rapports.",
+      "login": "Connexion",
+      "logout": "Deconnexion",
+      "register": "Inscription",
+      "createAccount": "Creer le compte",
+      "needAccount": "Besoin d'un compte ?",
+      "haveAccount": "Vous avez deja un compte ?"
+    },
+    "fields": {
+      "fullName": "Nom complet",
+      "email": "Email",
+      "password": "Mot de passe",
+      "note": "Note"
+    },
+    "states": {
+      "loading": "Chargement...",
+      "empty": "Aucun enregistrement."
+    },
+    "actions": {
+      "actions": "Actions",
+      "apply": "Appliquer",
+      "save": "Enregistrer",
+      "delete": "Supprimer",
+      "edit": "Modifier",
+      "cancel": "Annuler"
+    },
+    "filters": {
+      "allTypes": "Tous les types"
+    },
+    "transactions": {
+      "new": "Nouvelle transaction"
+    },
+    "budgets": {
+      "current": "Budget du mois courant",
+      "amount": "Montant du budget",
+      "spent": "Depense",
+      "remaining": "Restant",
+      "history": "Historique des budgets"
+    },
+    "reports": {
+      "title": "Rapport financier"
+    },
+    "settings": {
+      "profile": "Profil",
+      "culture": "Preference culturelle"
+    },
+    "validation": {
+      "positiveAmount": "Le montant doit etre superieur a zero."
+    }
+  }
+}

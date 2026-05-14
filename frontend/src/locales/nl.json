@@ -1,0 +1,140 @@
+{
+  "navbar": {
+    "eyebrow": "Cultuurbewust financieel dashboard",
+    "brand": "Masrofy Mini",
+    "cultureLabel": "Cultuur kiezen"
+  },
+  "stats": {
+    "balance": "Beschikbaar saldo",
+    "balanceHelper": "Beginsaldo plus actuele inkomsten en uitgaven.",
+    "income": "Maandelijkse inkomsten",
+    "incomeHelper": "Valutaweergave volgt de actieve cultuur.",
+    "expenses": "Maandelijkse uitgaven",
+    "expensesHelper": "Totalen worden lokaal passend weergegeven.",
+    "savings": "Spaarpercentage",
+    "savingsHelper": "Getallen gebruiken regionale scheidingstekens."
+  },
+  "preview": {
+    "eyebrow": "Cultuurvoorbeeld",
+    "title": "Details van de actieve instelling",
+    "language": "Taal",
+    "country": "Land",
+    "currency": "Valuta",
+    "date": "Opgemaakte datum",
+    "amount": "Voorbeeldbedrag"
+  },
+  "categories": {
+    "eyebrow": "Passende voorbeelden",
+    "title": "Voorgestelde financiele categorieen",
+    "samples": {
+      "en-US": ["Wonen", "Boodschappen", "Vervoer", "Investeringen"],
+      "ar-EG": ["Huishouden", "Familie", "Vervoer", "Sparen"],
+      "fr-FR": ["Huur", "Markt", "Uit eten", "Reizen"],
+      "de-DE": ["Huur", "Mobiliteit", "Verzekering", "Reserves"],
+      "nl-NL": ["Wonen", "Fiets", "Boodschappen", "Vrije tijd"]
+    }
+  },
+  "charts": {
+    "cashflowEyebrow": "Maandelijkse beweging",
+    "cashflowTitle": "Trend in inkomsten en uitgaven",
+    "spendingEyebrow": "Uitgavenmix",
+    "spendingTitle": "Verdeling per categorie"
+  },
+  "transactions": {
+    "eyebrow": "Recente grootboekactiviteit",
+    "title": "Laatste transacties",
+    "columns": {
+      "category": "Categorie",
+      "type": "Type",
+      "date": "Datum",
+      "amount": "Bedrag"
+    }
+  },
+  "labels": {
+    "income": "Inkomsten",
+    "expenses": "Uitgaven",
+    "expense": "Uitgave",
+    "salary": "Salaris",
+    "housing": "Wonen",
+    "food": "Voeding",
+    "transport": "Vervoer",
+    "lifestyle": "Leefstijl",
+    "freelance": "Freelance"
+  },
+  "months": {
+    "jan": "Jan",
+    "feb": "Feb",
+    "mar": "Mrt",
+    "apr": "Apr",
+    "may": "Mei"
+  },
+  "cultures": {
+    "en-US": { "language": "Engels", "country": "Verenigde Staten" },
+    "ar-EG": { "language": "Arabisch", "country": "Egypte" },
+    "fr-FR": { "language": "Frans", "country": "Frankrijk" },
+    "de-DE": { "language": "Duits", "country": "Duitsland" },
+    "nl-NL": { "language": "Nederlands", "country": "Nederland" }
+  },
+  "app": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "transactions": "Transacties",
+      "budgets": "Budgetten",
+      "reports": "Rapporten",
+      "settings": "Instellingen"
+    },
+    "auth": {
+      "loginTitle": "Welkom terug",
+      "loginSubtitle": "Log in om uw financiele dashboard te beheren.",
+      "registerTitle": "Maak uw account",
+      "registerSubtitle": "Volg inkomsten, uitgaven, budgetten en rapporten.",
+      "login": "Inloggen",
+      "logout": "Uitloggen",
+      "register": "Registreren",
+      "createAccount": "Account maken",
+      "needAccount": "Account nodig?",
+      "haveAccount": "Heeft u al een account?"
+    },
+    "fields": {
+      "fullName": "Volledige naam",
+      "email": "E-mail",
+      "password": "Wachtwoord",
+      "note": "Notitie"
+    },
+    "states": {
+      "loading": "Laden...",
+      "empty": "Geen records gevonden."
+    },
+    "actions": {
+      "actions": "Acties",
+      "apply": "Toepassen",
+      "save": "Opslaan",
+      "delete": "Verwijderen",
+      "edit": "Bewerken",
+      "cancel": "Annuleren"
+    },
+    "filters": {
+      "allTypes": "Alle typen"
+    },
+    "transactions": {
+      "new": "Nieuwe transactie"
+    },
+    "budgets": {
+      "current": "Budget huidige maand",
+      "amount": "Budgetbedrag",
+      "spent": "Uitgegeven",
+      "remaining": "Resterend",
+      "history": "Budgetgeschiedenis"
+    },
+    "reports": {
+      "title": "Financieel rapport"
+    },
+    "settings": {
+      "profile": "Profiel",
+      "culture": "Cultuurvoorkeur"
+    },
+    "validation": {
+      "positiveAmount": "Bedrag moet groter zijn dan nul."
+    }
+  }
+}

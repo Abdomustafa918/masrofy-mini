@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --culture-background: #edf5ff;
+  --culture-surface: #ffffff;
+  --culture-surfaceSoft: #dbeafe;
+  --culture-text: #0f172a;
+  --culture-muted: #475569;
+  --culture-primary: #2563eb;
+  --culture-secondary: #0f766e;
+  --culture-accent: #38bdf8;
+  --culture-border: #bfdbfe;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    linear-gradient(180deg, color-mix(in srgb, var(--culture-background) 92%, white 8%), var(--culture-background));
+  color: var(--culture-text);
+}
+
+button,
+select {
+  font: inherit;
+}
+
+.dashboard-shell {
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--culture-primary) 14%, transparent), transparent 32%),
+    linear-gradient(315deg, color-mix(in srgb, var(--culture-accent) 12%, transparent), transparent 28%);
+}
+
+.culture-panel {
+  border: 1px solid var(--culture-border);
+  background: color-mix(in srgb, var(--culture-surface) 94%, white 6%);
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
+}
+
+.surface-soft {
+  background: var(--culture-surfaceSoft);
+}
+
+.text-muted-culture {
+  color: var(--culture-muted);
+}
+
+.rtl-flip {
+  transform: scaleX(1);
+}
+
+[dir='rtl'] .rtl-flip {
+  transform: scaleX(-1);
+}

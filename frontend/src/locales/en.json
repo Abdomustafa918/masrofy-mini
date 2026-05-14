@@ -1,0 +1,140 @@
+{
+  "navbar": {
+    "eyebrow": "Culture-aware finance dashboard",
+    "brand": "Masrofy Mini",
+    "cultureLabel": "Select culture"
+  },
+  "stats": {
+    "balance": "Available balance",
+    "balanceHelper": "Opening balance plus current income and expenses.",
+    "income": "Monthly income",
+    "incomeHelper": "Localized currency formatting updates instantly.",
+    "expenses": "Monthly expenses",
+    "expensesHelper": "Spending totals use the active culture.",
+    "savings": "Savings rate",
+    "savingsHelper": "Numbers follow local punctuation and separators."
+  },
+  "preview": {
+    "eyebrow": "Culture preview",
+    "title": "Selected locale details",
+    "language": "Language",
+    "country": "Country",
+    "currency": "Currency",
+    "date": "Current formatted date",
+    "amount": "Sample formatted amount"
+  },
+  "categories": {
+    "eyebrow": "Culture-tuned samples",
+    "title": "Sample finance categories",
+    "samples": {
+      "en-US": ["Housing", "Groceries", "Transport", "Investments"],
+      "ar-EG": ["Household", "Family", "Transport", "Savings"],
+      "fr-FR": ["Rent", "Market", "Dining", "Travel"],
+      "de-DE": ["Rent", "Mobility", "Insurance", "Reserves"],
+      "nl-NL": ["Housing", "Bike", "Groceries", "Leisure"]
+    }
+  },
+  "charts": {
+    "cashflowEyebrow": "Monthly movement",
+    "cashflowTitle": "Income and expense trend",
+    "spendingEyebrow": "Expense mix",
+    "spendingTitle": "Category distribution"
+  },
+  "transactions": {
+    "eyebrow": "Recent ledger activity",
+    "title": "Latest transactions",
+    "columns": {
+      "category": "Category",
+      "type": "Type",
+      "date": "Date",
+      "amount": "Amount"
+    }
+  },
+  "labels": {
+    "income": "Income",
+    "expenses": "Expenses",
+    "expense": "Expense",
+    "salary": "Salary",
+    "housing": "Housing",
+    "food": "Food",
+    "transport": "Transport",
+    "lifestyle": "Lifestyle",
+    "freelance": "Freelance"
+  },
+  "months": {
+    "jan": "Jan",
+    "feb": "Feb",
+    "mar": "Mar",
+    "apr": "Apr",
+    "may": "May"
+  },
+  "cultures": {
+    "en-US": { "language": "English", "country": "United States" },
+    "ar-EG": { "language": "Arabic", "country": "Egypt" },
+    "fr-FR": { "language": "French", "country": "France" },
+    "de-DE": { "language": "German", "country": "Germany" },
+    "nl-NL": { "language": "Dutch", "country": "Netherlands" }
+  },
+  "app": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "transactions": "Transactions",
+      "budgets": "Budgets",
+      "reports": "Reports",
+      "settings": "Settings"
+    },
+    "auth": {
+      "loginTitle": "Welcome back",
+      "loginSubtitle": "Sign in to manage your finance dashboard.",
+      "registerTitle": "Create your account",
+      "registerSubtitle": "Start tracking income, expenses, budgets, and reports.",
+      "login": "Log in",
+      "logout": "Log out",
+      "register": "Register",
+      "createAccount": "Create account",
+      "needAccount": "Need an account?",
+      "haveAccount": "Already have an account?"
+    },
+    "fields": {
+      "fullName": "Full name",
+      "email": "Email",
+      "password": "Password",
+      "note": "Note"
+    },
+    "states": {
+      "loading": "Loading...",
+      "empty": "No records found."
+    },
+    "actions": {
+      "actions": "Actions",
+      "apply": "Apply",
+      "save": "Save",
+      "delete": "Delete",
+      "edit": "Edit",
+      "cancel": "Cancel"
+    },
+    "filters": {
+      "allTypes": "All types"
+    },
+    "transactions": {
+      "new": "New transaction"
+    },
+    "budgets": {
+      "current": "Current month budget",
+      "amount": "Budget amount",
+      "spent": "Spent",
+      "remaining": "Remaining",
+      "history": "Budget history"
+    },
+    "reports": {
+      "title": "Financial report"
+    },
+    "settings": {
+      "profile": "Profile",
+      "culture": "Culture preference"
+    },
+    "validation": {
+      "positiveAmount": "Amount must be greater than zero."
+    }
+  }
+}

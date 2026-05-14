@@ -1,0 +1,140 @@
+{
+  "navbar": {
+    "eyebrow": "Kulturbewusstes Finanzdashboard",
+    "brand": "Masrofy Mini",
+    "cultureLabel": "Kultur auswaehlen"
+  },
+  "stats": {
+    "balance": "Verfuegbares Guthaben",
+    "balanceHelper": "Startsaldo plus aktuelle Einnahmen und Ausgaben.",
+    "income": "Monatliche Einnahmen",
+    "incomeHelper": "Die Waehrungsdarstellung folgt der Kultur.",
+    "expenses": "Monatliche Ausgaben",
+    "expensesHelper": "Summen werden lokal passend dargestellt.",
+    "savings": "Sparquote",
+    "savingsHelper": "Zahlen verwenden regionale Trennzeichen."
+  },
+  "preview": {
+    "eyebrow": "Kulturvorschau",
+    "title": "Details der aktiven Einstellung",
+    "language": "Sprache",
+    "country": "Land",
+    "currency": "Waehrung",
+    "date": "Formatiertes Datum",
+    "amount": "Beispielbetrag"
+  },
+  "categories": {
+    "eyebrow": "Passende Beispiele",
+    "title": "Vorgeschlagene Finanzkategorien",
+    "samples": {
+      "en-US": ["Wohnen", "Lebensmittel", "Verkehr", "Investitionen"],
+      "ar-EG": ["Haushalt", "Familie", "Verkehr", "Sparen"],
+      "fr-FR": ["Miete", "Markt", "Gastronomie", "Reise"],
+      "de-DE": ["Miete", "Mobilitaet", "Versicherung", "Ruecklagen"],
+      "nl-NL": ["Wohnen", "Fahrrad", "Lebensmittel", "Freizeit"]
+    }
+  },
+  "charts": {
+    "cashflowEyebrow": "Monatliche Entwicklung",
+    "cashflowTitle": "Trend von Einnahmen und Ausgaben",
+    "spendingEyebrow": "Ausgabenmix",
+    "spendingTitle": "Verteilung nach Kategorie"
+  },
+  "transactions": {
+    "eyebrow": "Letzte Buchungen",
+    "title": "Aktuelle Transaktionen",
+    "columns": {
+      "category": "Kategorie",
+      "type": "Typ",
+      "date": "Datum",
+      "amount": "Betrag"
+    }
+  },
+  "labels": {
+    "income": "Einnahmen",
+    "expenses": "Ausgaben",
+    "expense": "Ausgabe",
+    "salary": "Gehalt",
+    "housing": "Wohnen",
+    "food": "Lebensmittel",
+    "transport": "Verkehr",
+    "lifestyle": "Lebensstil",
+    "freelance": "Freiberuflich"
+  },
+  "months": {
+    "jan": "Jan",
+    "feb": "Feb",
+    "mar": "Mar",
+    "apr": "Apr",
+    "may": "Mai"
+  },
+  "cultures": {
+    "en-US": { "language": "Englisch", "country": "Vereinigte Staaten" },
+    "ar-EG": { "language": "Arabisch", "country": "Aegypten" },
+    "fr-FR": { "language": "Franzoesisch", "country": "Frankreich" },
+    "de-DE": { "language": "Deutsch", "country": "Deutschland" },
+    "nl-NL": { "language": "Niederlaendisch", "country": "Niederlande" }
+  },
+  "app": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "transactions": "Transaktionen",
+      "budgets": "Budgets",
+      "reports": "Berichte",
+      "settings": "Einstellungen"
+    },
+    "auth": {
+      "loginTitle": "Willkommen zurueck",
+      "loginSubtitle": "Melden Sie sich an, um Ihr Finanzdashboard zu verwalten.",
+      "registerTitle": "Konto erstellen",
+      "registerSubtitle": "Verfolgen Sie Einnahmen, Ausgaben, Budgets und Berichte.",
+      "login": "Anmelden",
+      "logout": "Abmelden",
+      "register": "Registrieren",
+      "createAccount": "Konto erstellen",
+      "needAccount": "Noch kein Konto?",
+      "haveAccount": "Sie haben bereits ein Konto?"
+    },
+    "fields": {
+      "fullName": "Vollstaendiger Name",
+      "email": "E-Mail",
+      "password": "Passwort",
+      "note": "Notiz"
+    },
+    "states": {
+      "loading": "Wird geladen...",
+      "empty": "Keine Eintraege gefunden."
+    },
+    "actions": {
+      "actions": "Aktionen",
+      "apply": "Anwenden",
+      "save": "Speichern",
+      "delete": "Loeschen",
+      "edit": "Bearbeiten",
+      "cancel": "Abbrechen"
+    },
+    "filters": {
+      "allTypes": "Alle Typen"
+    },
+    "transactions": {
+      "new": "Neue Transaktion"
+    },
+    "budgets": {
+      "current": "Budget des aktuellen Monats",
+      "amount": "Budgetbetrag",
+      "spent": "Ausgegeben",
+      "remaining": "Verbleibend",
+      "history": "Budgetverlauf"
+    },
+    "reports": {
+      "title": "Finanzbericht"
+    },
+    "settings": {
+      "profile": "Profil",
+      "culture": "Kultureinstellung"
+    },
+    "validation": {
+      "positiveAmount": "Der Betrag muss groesser als null sein."
+    }
+  }
+}
