@@ -17,7 +17,7 @@ Masrofy Mini is a production-style personal finance dashboard with a React front
 - Dashboard summary from backend data.
 - Transaction filters by type, category, and date range.
 - Monthly budget create/update and progress tracking.
-- Culture-aware UI for `en-US`, `ar-EG`, `fr-FR`, `de-DE`, and `nl-NL`.
+- Culture-aware UI for `en-US`, `ar-EG`, `fr-FR`, `de-DE`, `nl-NL`, and `ja-JP`.
 - RTL layout for Arabic and LTR layout for other cultures.
 - Dynamic currency, date, number formatting, theme variables, and sample categories.
 
@@ -55,6 +55,7 @@ Each culture defines:
 - Language and country
 - Direction
 - Currency code and symbol
+- Locale-aware date, number, and currency formatting metadata
 - Theme colors
 - Dashboard visual style identifier
 - Sample finance categories
@@ -71,6 +72,14 @@ When culture changes, the frontend:
 - Updates CSS theme variables.
 - Calls `PUT /api/users/me/culture` for authenticated users.
 - Persists the culture locally and on the user profile.
+
+Supported cultures:
+- `en-US`: English, United States, USD formatting.
+- `ar-EG`: Arabic, Egypt, EGP formatting, RTL layout.
+- `fr-FR`: French, France, EUR formatting.
+- `de-DE`: German, Germany, EUR formatting.
+- `nl-NL`: Dutch, Netherlands, EUR formatting.
+- `ja-JP`: Japanese, Japan, JPY formatting such as `¥12,500`, `YYYY/MM/DD` dates such as `2026/05/19`, Japanese font fallbacks, and a minimalist white/navy/red/gold dashboard theme.
 
 ## Authentication
 

@@ -12,8 +12,10 @@ const CultureContext = createContext(null);
 function applyTheme(culture) {
   const root = document.documentElement;
   root.lang = culture.code;
-  root.dir = culture.direction;
+  root.dir = culture.dir || culture.direction;
+  root.dataset.culture = culture.code;
   root.dataset.dashboardStyle = culture.dashboardStyle;
+  root.style.setProperty('--culture-font-family', culture.fontFamily || 'Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif');
 
   Object.entries(culture.theme).forEach(([token, value]) => {
     root.style.setProperty(`--culture-${token}`, value);

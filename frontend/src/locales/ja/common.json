@@ -1,0 +1,142 @@
+{
+  "navbar": {
+    "eyebrow": "文化設定に対応した家計ダッシュボード",
+    "brand": "Masrofy Mini",
+    "cultureLabel": "言語と地域を選択"
+  },
+  "stats": {
+    "balance": "利用可能残高",
+    "balanceHelper": "開始残高に現在の収入と支出を反映しています。",
+    "income": "月間収入",
+    "incomeHelper": "通貨表示は選択中の文化設定に合わせて即時更新されます。",
+    "expenses": "月間支出",
+    "expensesHelper": "支出合計は現在の文化設定に基づいて表示されます。",
+    "savings": "貯蓄率",
+    "savingsHelper": "数値は地域ごとの区切り記号と表記に従います。"
+  },
+  "preview": {
+    "eyebrow": "文化設定プレビュー",
+    "title": "選択中のロケール詳細",
+    "language": "言語",
+    "country": "国",
+    "currency": "通貨",
+    "date": "現在の日付表示",
+    "amount": "サンプル金額表示"
+  },
+  "categories": {
+    "eyebrow": "文化に合わせたサンプル",
+    "title": "家計カテゴリの例",
+    "samples": {
+      "en-US": ["住居", "食料品", "交通", "投資"],
+      "ar-EG": ["家庭", "家族", "交通", "貯蓄"],
+      "fr-FR": ["家賃", "市場", "外食", "旅行"],
+      "de-DE": ["家賃", "移動", "保険", "予備費"],
+      "nl-NL": ["住居", "自転車", "食料品", "余暇"],
+      "ja-JP": ["食費", "家賃", "給料", "交通費", "貯金"]
+    }
+  },
+  "charts": {
+    "cashflowEyebrow": "月次推移",
+    "cashflowTitle": "収入と支出のトレンド",
+    "spendingEyebrow": "支出内訳",
+    "spendingTitle": "カテゴリ別分布"
+  },
+  "transactions": {
+    "eyebrow": "最近の入出金",
+    "title": "最新の取引",
+    "columns": {
+      "category": "カテゴリ",
+      "type": "種類",
+      "date": "日付",
+      "amount": "金額"
+    }
+  },
+  "labels": {
+    "income": "収入",
+    "expenses": "支出",
+    "expense": "支出",
+    "salary": "給料",
+    "housing": "住居",
+    "food": "食費",
+    "transport": "交通費",
+    "lifestyle": "生活費",
+    "freelance": "副業"
+  },
+  "months": {
+    "jan": "1月",
+    "feb": "2月",
+    "mar": "3月",
+    "apr": "4月",
+    "may": "5月"
+  },
+  "cultures": {
+    "en-US": { "language": "英語", "country": "米国" },
+    "ar-EG": { "language": "アラビア語", "country": "エジプト" },
+    "fr-FR": { "language": "フランス語", "country": "フランス" },
+    "de-DE": { "language": "ドイツ語", "country": "ドイツ" },
+    "nl-NL": { "language": "オランダ語", "country": "オランダ" },
+    "ja-JP": { "language": "日本語", "country": "日本" }
+  },
+  "app": {
+    "nav": {
+      "dashboard": "ダッシュボード",
+      "transactions": "取引",
+      "budgets": "予算",
+      "reports": "レポート",
+      "settings": "設定"
+    },
+    "auth": {
+      "loginTitle": "おかえりなさい",
+      "loginSubtitle": "ログインして家計ダッシュボードを管理します。",
+      "registerTitle": "アカウント作成",
+      "registerSubtitle": "収入、支出、予算、レポートの管理を始めましょう。",
+      "login": "ログイン",
+      "logout": "ログアウト",
+      "register": "登録",
+      "createAccount": "アカウントを作成",
+      "needAccount": "アカウントをお持ちでないですか？",
+      "haveAccount": "すでにアカウントをお持ちですか？"
+    },
+    "fields": {
+      "fullName": "氏名",
+      "email": "メールアドレス",
+      "password": "パスワード",
+      "note": "メモ"
+    },
+    "states": {
+      "loading": "読み込み中...",
+      "empty": "該当する記録はありません。"
+    },
+    "actions": {
+      "actions": "操作",
+      "apply": "適用",
+      "save": "保存",
+      "delete": "削除",
+      "edit": "編集",
+      "cancel": "キャンセル"
+    },
+    "filters": {
+      "allTypes": "すべての種類"
+    },
+    "transactions": {
+      "new": "取引を追加"
+    },
+    "budgets": {
+      "current": "当月予算",
+      "amount": "予算額",
+      "spent": "使用済み",
+      "remaining": "残額",
+      "history": "予算履歴"
+    },
+    "reports": {
+      "title": "財務レポート"
+    },
+    "settings": {
+      "profile": "プロフィール",
+      "culture": "文化設定"
+    },
+    "validation": {
+      "positiveAmount": "金額は0より大きい値を入力してください。"
+    }
+  }
+}

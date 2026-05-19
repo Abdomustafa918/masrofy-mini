@@ -19,7 +19,7 @@ export default function CultureSelector() {
       >
         {cultures.map((culture) => (
           <option key={culture.code} value={culture.code}>
-            {t(`cultures.${culture.code}.language`)} - {t(`cultures.${culture.code}.country`)}
+            {culture.label || `${t(`cultures.${culture.code}.language`)} - ${t(`cultures.${culture.code}.country`)}`}
           </option>
         ))}
       </select>

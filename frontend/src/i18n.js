@@ -5,6 +5,7 @@ import ar from './locales/ar.json';
 import fr from './locales/fr.json';
 import de from './locales/de.json';
 import nl from './locales/nl.json';
+import ja from './locales/ja/common.json';
 import { cultureStorageKey, defaultCultureCode } from './config/cultures';
 
 i18n
@@ -16,6 +17,7 @@ i18n
       'fr-FR': { translation: fr },
       'de-DE': { translation: de },
       'nl-NL': { translation: nl },
+      'ja-JP': { translation: ja },
     },
     lng: window.localStorage.getItem(cultureStorageKey) || defaultCultureCode,
     fallbackLng: defaultCultureCode,

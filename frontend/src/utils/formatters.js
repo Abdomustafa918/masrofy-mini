@@ -7,22 +7,40 @@ export function getSelectedCulture() {
 
 export function formatCurrency(amount) {
   const culture = getSelectedCulture();
-  return new Intl.NumberFormat(culture.code, {
+  const formatter = new Intl.NumberFormat(culture.numberFormat || culture.locale || culture.code, {
     style: 'currency',
-    currency: culture.currencyCode,
-  }).format(amount);
+    currency: culture.currency || culture.currencyCode,
+  });
+
+  if ((culture.currency || culture.currencyCode) === 'JPY') {
+    return formatter.formatToParts(amount).map((part) => (
+      part.type === 'currency' ? culture.currencySymbol : part.value
+    )).join('');
+  }
+
+  return formatter.format(amount);
 }
 
 export function formatDate(date) {
   const culture = getSelectedCulture();
-  return new Intl.DateTimeFormat(culture.code, {
+  const value = new Date(date);
+
+  if (culture.dateFormat === 'YYYY/MM/DD') {
+    return new Intl.DateTimeFormat(culture.locale || culture.code, {
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit',
+    }).format(value);
+  }
+
+  return new Intl.DateTimeFormat(culture.locale || culture.code, {
     dateStyle: 'medium',
-  }).format(new Date(date));
+  }).format(value);
 }
 
 export function formatNumber(value) {
   const culture = getSelectedCulture();
-  return new Intl.NumberFormat(culture.code, {
+  return new Intl.NumberFormat(culture.numberFormat || culture.locale || culture.code, {
     maximumFractionDigits: 2,
   }).format(value);
 }
